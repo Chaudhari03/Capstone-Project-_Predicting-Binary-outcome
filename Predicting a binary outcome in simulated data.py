@@ -146,7 +146,10 @@ four_way_additive_heterogeneous['Class'].value_counts()
 
 
 # Set global aesthetics using seaborn style for consistency and a professional look
-plt.style.use('seaborn')
+try:
+    plt.style.use('seaborn')
+except:
+    plt.style.use('seaborn-v0_8')
 # Configure global font settings for readability
 plt.rc('font', family='Arial', size=14)
 
