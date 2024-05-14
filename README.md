@@ -5,15 +5,16 @@ This research project is dedicated to developing models capable of predicting bi
 - Python 3.9.13
 - anaconda 2022.10
 - Required Libraries:
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- skrebate
+ - numpy(1.21.5)
+ - pandas(1.4.4)
+ - matplotlib(3.5.2)
+ - seaborn(0.11.2)
+ - scikit-learn(1.0.2)
+ - skrebate(0.62)
 
 # Setup instructions:
 Jupyter Notebook: If Jupyter Notebook is not installed, it can be installed as part of the Anaconda distribution available.
+Download here : (https://repo.anaconda.com/archive/Anaconda3-2022.10-Windows-x86_64.exe)
 Python: Python can be downloaded and installed from the online platform
 Dependencies: Install the necessary libraries by executing the following command in the terminal or command prompt:
  - pip install numpy pandas matplotlib seaborn scikit-learn skrebate
